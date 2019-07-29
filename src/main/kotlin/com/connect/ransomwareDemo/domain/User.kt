@@ -1,6 +1,6 @@
 package com.connect.ransomwareDemo.domain
 
-class User(
-        foreName: String,
-        surname: String
+data class User(
+        val forename: String,
+        val surname: String
 )
